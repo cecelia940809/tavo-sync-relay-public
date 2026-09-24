@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: tavo-sync-relay
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /health
